@@ -4,13 +4,13 @@ export default function Service() {
   return (
     <div className="services">
       <section>
-        <div className="images">
+        {/* <div className="images">
           <img src="./img/google.png" alt="company" />
           <img src="./img/slack.png" alt="company" />
           <img src="./img/google.png" alt="company" />
           <img src="./img/slack.png" alt="company" />
           <img src="./img/google.png" alt="company" />
-        </div>
+        </div> */}
         <div className="cards">
           <Card
             iconClass="fi-bs-objects-column"

@@ -7,7 +7,7 @@ export default function Project() {
     <li className="project">
       <div className="project-date">
         <span>Jan</span>
-        <span>2k21</span>
+        <span>2021</span>
       </div>
       <div className="project-preview">
         <img src={Design} alt="work" />

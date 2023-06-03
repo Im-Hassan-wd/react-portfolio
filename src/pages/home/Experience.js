@@ -18,8 +18,8 @@ export default function Experience() {
         <div className="experience-text">
           <span className="span">/ Problem solver</span>
           <h3>
-            I enjoy solving problem with clean scalable solutions. I have
-            genuine passion for inspiring design.
+            I derive great satisfaction from solving problems, utilizing my
+            skills and creativity to find innovative solutions.
           </h3>
           <p>
             Passionate web developer crafting immersive online experiences with
