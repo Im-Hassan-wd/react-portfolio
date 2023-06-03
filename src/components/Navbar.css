@@ -4,9 +4,12 @@
   justify-content: space-between;
   align-items: center;
 }
-.navbar .logo {
+.logo {
   order: 2;
   text-transform: uppercase;
+}
+.logo span {
+  color: var(--blue);
 }
 .navbar ul {
   display: flex;

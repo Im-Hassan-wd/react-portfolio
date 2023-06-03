@@ -1,0 +1,29 @@
+footer {
+  margin: 64px 0;
+  text-align: center;
+}
+footer .icons {
+  margin: 16px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+footer i {
+  color: var(--blue-dark-50);
+  height: 100%;
+  margin-top: 10px;
+}
+footer a {
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--gray-100);
+  border-radius: 50%;
+}
+footer span {
+  color: var(--gray-100);
+}

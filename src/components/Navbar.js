@@ -6,7 +6,9 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo">Warwick/H.</div>
+      <div className="logo">
+        Warwick<span>/</span>H.
+      </div>
       <ul>
         <li>
           <NavLink exact to="/">
