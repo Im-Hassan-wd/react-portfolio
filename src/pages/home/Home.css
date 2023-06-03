@@ -1,0 +1,193 @@
+/* introduction section  */
+.intro {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: last baseline;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
+.intro .me {
+  display: block;
+}
+.span {
+  color: var(--gray-100);
+  text-transform: uppercase;
+}
+.intro-text .more {
+  display: inline-block;
+  margin-top: 150px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+.more i {
+  font-size: 1.5rem;
+}
+.intro-text h3 {
+  max-width: 300px;
+}
+.intro-text p {
+  max-width: 300px;
+}
+.design {
+  position: absolute;
+  background: var(--blue);
+  bottom: 11%;
+  right: 20%;
+  transform: rotate(15deg);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.develop {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  transform: rotate(-3deg);
+  background: var(--purple);
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* experience section  */
+.experience {
+  background-color: var(--blue-dark-100);
+  border-bottom: 1px solid var(--blue-dark-50);
+}
+.experience section {
+  padding: 64px 0px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  font-size: 3.5rem;
+  color: var(--gray-100);
+  position: relative;
+  z-index: 1;
+  font-style: italic;
+  transform: rotate(-7deg);
+  margin-bottom: -8px;
+  opacity: 0.5;
+}
+.experience h3 {
+  max-width: 400px;
+}
+.experience p {
+  max-width: 400px;
+}
+.num {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--blue);
+  position: relative;
+  z-index: 3;
+}
+.desc {
+  width: 100px;
+  color: var(--gray-50);
+}
+.experience ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* services section  */
+.services {
+  padding: 64px 0;
+  padding-bottom: 16px;
+  background: var(--blue-dark-100);
+  position: relative;
+}
+.services .images {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.services img {
+  filter: grayscale(1) invert(1) contrast(1);
+}
+.services .cards {
+  margin: 24px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  position: relative;
+  z-index: 2;
+}
+.container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 1;
+  background: var(--blue-dark-50);
+}
+
+/* work section  */
+.work {
+  margin-top: 64px;
+}
+.work .span {
+  margin-bottom: 16px;
+}
+.work h3 {
+  margin: 0;
+}
+.work p {
+  margin-top: 16px;
+  max-width: 350px;
+}
+.work h1 {
+  text-align: center;
+  font-size: 6rem;
+  margin: 24px 0;
+}
+
+/* review section  */
+.review {
+  background: var(--blue-dark-100);
+}
+.review section {
+  padding: 64px 0;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  align-items: center;
+}
+.client-image-container {
+  height: 350px;
+  width: 250px;
+  background: var(--blue-dark-50);
+}
+.client-review {
+  max-width: 500px;
+}
+.client-review i {
+  font-size: 2rem;
+}
+.client-review h3 {
+  font-weight: 500;
+}
+.client-review span {
+  color: var(--blue);
+}
+.client-review h5 {
+  font-weight: 300;
+  font-size: 16px;
+}
