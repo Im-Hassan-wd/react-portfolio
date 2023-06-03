@@ -16,7 +16,6 @@
   line-height: 5rem;
 }
 .contact .heading {
-  /* line-height: 4rem; */
   font-size: 6rem;
 }
 .contact form {
@@ -63,4 +62,10 @@
 }
 .contact i {
   margin-top: 10px;
+}
+
+@media (max-width: 670px) {
+  .contact .heading {
+    line-height: 7rem;
+  }
 }
