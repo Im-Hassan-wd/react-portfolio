@@ -26,9 +26,13 @@
   background: var(--blue-dark-100);
   color: var(--gray-50);
 }
-.project-preview {
-  width: 700px;
-}
 .project-preview img {
   width: 100%;
+}
+
+@media (max-width: 670px) {
+  .project {
+    /* display: block; */
+    flex-direction: column;
+  }
 }

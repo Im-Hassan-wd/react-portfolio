@@ -47,7 +47,6 @@
 }
 .develop {
   position: absolute;
-  top: 10%;
   left: 30%;
   transform: rotate(-3deg);
   background: var(--purple);
@@ -59,6 +58,17 @@
   justify-content: center;
   text-align: center;
 }
+@media (min-width: 671px) {
+  .develop {
+    top: 10%;
+  }
+}
+@media (max-width: 670px) {
+  .develop {
+    bottom: 9% !important;
+    left: 10%;
+  }
+}
 
 /* experience section  */
 .experience {
@@ -66,7 +76,7 @@
   border-bottom: 1px solid var(--blue-dark-50);
 }
 .experience section {
-  padding: 64px 0px;
+  padding: 64px 16px;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -80,7 +90,7 @@
   font-style: italic;
   transform: rotate(-7deg);
   margin-bottom: -8px;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 .experience h3 {
   max-width: 400px;
@@ -157,6 +167,7 @@
   text-align: center;
   font-size: 6rem;
   margin: 24px 0;
+  line-height: 6rem;
 }
 
 /* review section  */
@@ -164,8 +175,8 @@
   background: var(--blue-dark-100);
 }
 .review section {
-  padding: 64px 0;
-  display: grid;
+  padding: 64px 16px;
+  display: grid !important;
   grid-template-columns: 1fr 2fr;
   gap: 20px;
   align-items: center;
@@ -190,4 +201,14 @@
 .client-review h5 {
   font-weight: 300;
   font-size: 16px;
+}
+
+@media (max-width: 670px) {
+  .review section {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .client-image-container {
+    margin: 0 auto;
+  }
 }
