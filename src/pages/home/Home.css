@@ -9,7 +9,16 @@
   background-size: cover;
   z-index: 1;
 }
-.intro .me {
+.intro h1 {
+  margin-bottom: 32px;
+  font-size: 4rem;
+}
+@media (min-width: 671px) {
+  .intro h1 {
+    transform: translateY(-80px);
+  }
+}
+.intro .me:first-of-type {
   display: block;
 }
 .span {
