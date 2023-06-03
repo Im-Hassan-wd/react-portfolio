@@ -25,3 +25,9 @@
 .navbar a.active {
   color: var(--gray-50);
 }
+
+@media (max-width: 670px) {
+  .navbar li {
+    margin: 0 8px;
+  }
+}

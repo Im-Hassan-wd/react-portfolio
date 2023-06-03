@@ -1,5 +1,7 @@
 /* introduction section  */
 .intro {
+  margin-top: 64px;
+  margin-bottom: 64px;
   position: relative;
   display: flex;
   justify-content: space-between;

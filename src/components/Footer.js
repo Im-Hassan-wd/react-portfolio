@@ -13,7 +13,7 @@ export default function Footer() {
       </div>
       <div className="icons">
         {icons.map((icon) => (
-          <a href="#">
+          <a key={icon} href="#">
             <i className={`fi fi-brands-${icon}`}></i>
           </a>
         ))}

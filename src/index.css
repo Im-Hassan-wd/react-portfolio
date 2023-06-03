@@ -24,7 +24,6 @@
 body {
   background: var(--blue-dark-50);
   color: #fff;
-  overflow-x: hidden;
 }
 section,
 nav {
