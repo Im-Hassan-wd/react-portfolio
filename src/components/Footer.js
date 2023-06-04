@@ -1,7 +1,12 @@
 // styles
 import "./Footer.css";
 
-const icons = ["linkedin", "github", "twitter", "instagram"];
+const icons = [
+  { brand: "linkedin", link: "linkedin.com/in/hassan-warwick" },
+  { brand: "github", link: "github.com/im-hassan-wd" },
+  { brand: "twitter", link: "twitter.com/iamweirdwarwick" },
+  { brand: "instagram", link: "instagram.com/weirdwarwick" },
+];
 
 export default function Footer() {
   const date = new Date();
@@ -13,8 +18,8 @@ export default function Footer() {
       </div>
       <div className="icons">
         {icons.map((icon) => (
-          <a key={icon} href="#">
-            <i className={`fi fi-brands-${icon}`}></i>
+          <a key={icon.brand} href={`https://${icon.link}`}>
+            <i className={`fi fi-brands-${icon.brand}`}></i>
           </a>
         ))}
       </div>
