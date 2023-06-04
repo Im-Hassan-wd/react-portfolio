@@ -1,5 +1,16 @@
 import Project from "../../components/Project";
 
+const works = [
+  {
+    date: [{ month: "Apr", year: "2023" }],
+    photoURL: "./img/1.png",
+  },
+  {
+    date: [{ month: "May", year: "2023" }],
+    photoURL: "./img/2.png",
+  },
+];
+
 export default function Work() {
   return (
     <section className="work">
@@ -15,8 +26,9 @@ export default function Work() {
         <h1 className="heading">Design & Code</h1>
       </div>
       <ul>
-        <Project />
-        <Project />
+        {works.map((work) => (
+          <Project key={work.photoURL} work={work} />
+        ))}
       </ul>
     </section>
   );

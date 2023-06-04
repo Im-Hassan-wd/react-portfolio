@@ -1,16 +1,18 @@
 // static files
-import Design from "../img/design.png";
+// import Design from "../img/work.png";
 import "./Project.css";
 
-export default function Project() {
+export default function Project({ work }) {
   return (
     <li className="project">
-      <div className="project-date">
-        <span>Jan</span>
-        <span>2021</span>
-      </div>
+      {work.date.map((d) => (
+        <div className="project-date" key={d.month}>
+          <span>{d.month}</span>
+          <span>{d.year}</span>
+        </div>
+      ))}
       <div className="project-preview">
-        <img src={Design} alt="work" />
+        <img src={work.photoURL} alt="work" />
       </div>
     </li>
   );

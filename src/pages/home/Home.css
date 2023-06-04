@@ -169,10 +169,12 @@
   margin-bottom: 16px;
 }
 .work h3 {
-  margin: 0;
+  margin: 16px 0 0 0px;
+}
+.work h3:last-of-type {
+  margin: 0px 0px 16px 0;
 }
 .work p {
-  margin-top: 16px;
   max-width: 350px;
 }
 .work h1 {
