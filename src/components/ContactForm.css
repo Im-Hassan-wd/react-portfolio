@@ -68,4 +68,7 @@
   .contact .heading {
     line-height: 7rem;
   }
+  .form-header {
+    font-size: 4.5rem;
+  }
 }

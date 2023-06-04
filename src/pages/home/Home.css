@@ -15,9 +15,18 @@
   margin-bottom: 32px;
   font-size: 4rem;
 }
+.intro h1 i {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 3rem;
+  transform: rotate(90deg);
+}
 @media (min-width: 671px) {
   .intro h1 {
     transform: translateY(-80px);
+  }
+  .intro h1 i {
+    transform: rotate(0deg);
   }
 }
 .intro .me:first-of-type {
@@ -104,9 +113,7 @@
   opacity: 0.4;
   font-family: "Dancing Script", cursive;
 }
-.experience h3 {
-  max-width: 400px;
-}
+.experience h3,
 .experience p {
   max-width: 400px;
 }
@@ -122,6 +129,7 @@
   color: var(--gray-50);
 }
 .experience ul {
+  margin-bottom: 32px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
