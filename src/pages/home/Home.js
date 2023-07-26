@@ -2,11 +2,11 @@
 import "./Home.css";
 
 // components
-import Experience from "./Experience";
-import Service from "./Service";
-import Intro from "./Intro";
-import Work from "./Work";
-import Review from "./Review";
+import Work from "./components/Work";
+import Intro from "./components/Intro";
+import Review from "./components/Review";
+import Service from "./components/Service";
+import Experience from "./components/Experience";
 import ContactForm from "../../components/ContactForm";
 
 export default function Home() {

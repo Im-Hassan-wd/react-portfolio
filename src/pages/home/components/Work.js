@@ -1,13 +1,15 @@
-import Project from "../../components/Project";
+import Project from "../../../components/Project";
 
 const works = [
   {
     date: [{ month: "Apr", year: "2023" }],
     photoURL: "./img/1.png",
+    linkUrl: "purple-app.vercel.app/",
   },
   {
     date: [{ month: "May", year: "2023" }],
-    photoURL: "./img/2.png",
+    photoURL: "./img/chatter.png",
+    linkUrl: "chatter-app-391d3.web.app/",
   },
 ];
 
@@ -27,7 +29,13 @@ export default function Work() {
       </div>
       <ul>
         {works.map((work) => (
-          <Project key={work.photoURL} work={work} />
+          <a
+            href={`https://${work.linkUrl}`}
+            target="_blank"
+            key={work.photoURL}
+          >
+            <Project work={work} />
+          </a>
         ))}
       </ul>
     </section>
