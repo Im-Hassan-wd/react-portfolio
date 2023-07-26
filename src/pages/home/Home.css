@@ -28,6 +28,9 @@
   .intro h1 i {
     transform: rotate(0deg);
   }
+  .intro .me {
+    margin-bottom: 16px;
+  }
 }
 .intro .me:first-of-type {
   display: block;
@@ -190,6 +193,11 @@
   font-size: 6rem;
   margin: 24px 0;
   line-height: 6rem;
+}
+@media (max-width: 458px) {
+  section.work h1 {
+    line-height: 4.5rem;
+  }
 }
 
 /* review section  */
